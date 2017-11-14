@@ -31,10 +31,9 @@ http://conanio.readthedocs.io/en/latest/reference/generators/xcode.html
 
 **TODO:** Update this example once Xcode is tested.
 
+https://github.com/conan-io/conan/issues/1047
+
 ```shell
-conan install .. -g xcode -s arch=x86 -s build_type=Debug
-conan install .. -g xcode -s arch=x86_64 -s build_type=Debug
-conan install .. -g xcode -s arch=x86 -s build_type=Release
-conan install .. -g xcode -s arch=x86_64 -s build_type=Release
+conan install .. -g xcode
 ```
 
